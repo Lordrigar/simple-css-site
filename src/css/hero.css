@@ -1,0 +1,25 @@
+header {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+
+header h1 {
+  font-weight: 300;
+  letter-spacing: 3px;
+  line-height: 1;
+  font-size: 36px;
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
+.hamburger div {
+  width: 35px;
+  height: 5px;
+  background-color: var(--black);
+  margin: 6px 0px;
+}
