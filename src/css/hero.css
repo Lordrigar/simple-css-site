@@ -1,4 +1,4 @@
-header {
+header > div {
   width: 100%;
   display: flex;
   align-content: center;
@@ -14,12 +14,67 @@ header h1 {
 }
 
 .hamburger {
+  position: relative;
   cursor: pointer;
+  background: rgba(34, 34, 34, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 12px;
+  transition: all 0.3s linear;
+  right: 0;
 }
 
 .hamburger div {
-  width: 35px;
-  height: 5px;
-  background-color: var(--black);
-  margin: 6px 0px;
+  opacity: 1;
+  width: 14px;
+  height: 2px;
+  background-color: var(--white);
+  margin: 1px 0px;
+  transition: transform 0.3s linear, opacity 0.2s linear;
+}
+
+nav {
+  position: fixed;
+  right: -200px;
+  top: 0;
+  transition: all 0.3s linear;
+  overflow-y: auto;
+  width: 200px;
+  height: 200px;
+  color: var(--light-orange);
+  z-index: 5;
+}
+
+nav li:hover {
+  color: var(--orange);
+}
+
+.hamburger:active {
+  right: 200px;
+}
+
+.hamburger:active ~ nav {
+  right: 20px;
+}
+
+.hamburger:active div:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger:active div:first-child {
+  transform: rotate(45deg) translate(3px, 3px);
+}
+
+.hamburger:active div:last-child {
+  transform: rotate(-45deg) translate(2px, -3px);
+}
+
+nav ul {
+  height: 100%;
+}
+
+nav li {
+  padding: 10px 10px;
 }

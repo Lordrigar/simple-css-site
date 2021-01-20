@@ -1,5 +1,8 @@
 :root {
+  --white: #fff;
   --black: #000;
+  --orange: #ffa26a;
+  --light-orange: #ffd2b7;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 1200px;
