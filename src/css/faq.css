@@ -1,6 +1,7 @@
 .faq {
   max-width: 1140px;
-  margin: 0 auto;
+  margin: 40px auto;
+  margin-bottom: 80px;
   display: flex;
   flex-direction: column;
 }

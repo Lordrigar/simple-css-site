@@ -2,6 +2,8 @@
   --white: #fff;
   --black: #000;
   --brown: #743e1d;
+  --dark-brown: #5a2c10;
+  --dark-brown2: #2f1708;
   --light-black: #222;
   --light-black2: #333;
   --orange: #ffa26a;
@@ -23,6 +25,7 @@
 body {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
+  /* color: #444; */
 }
 
 ul {
