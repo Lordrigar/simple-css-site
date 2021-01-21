@@ -1,8 +1,13 @@
 :root {
   --white: #fff;
   --black: #000;
+  --light-black: #222;
+  --light-black2: #333;
   --orange: #ffa26a;
+  --dark-orange: #fd680e;
   --light-orange: #ffd2b7;
+  --light-orange2: #fd8841;
+  --peach: #fff7f2;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 1200px;
