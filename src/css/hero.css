@@ -93,7 +93,7 @@ nav li {
   background: lightblue url('./../assets/hero-bg.jpg') no-repeat fixed center;
   height: 80vh;
   margin-top: -80px;
-  z-index: -1;
+  z-index: 4;
   font-family: 'Raleway', sans-serif;
   padding: 80px 0;
   width: 100%;

@@ -20,9 +20,10 @@
 .about .about-text {
   align-self: flex-start;
   max-width: 50%;
-  flex: 0 0 50%;
+  flex: 0 0 45%;
   line-height: 1.2;
   color: #444444;
+  margin-left: 30px;
 }
 
 .about .about-text h3 {
