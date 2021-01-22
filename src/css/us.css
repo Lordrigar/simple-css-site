@@ -79,3 +79,27 @@
   color: #5e5e5e;
   padding: 0px 20px 20px 20px;
 }
+
+@media (max-width: 768px) {
+  .card {
+    flex: 0 0 45%;
+    margin-bottom: 20px;
+  }
+
+  .us .container {
+    align-items: stretch;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    flex: 0 0 90%;
+    margin-bottom: 30px;
+  }
+
+  .us .container {
+    align-items: center;
+    justify-content: center;
+  }
+}

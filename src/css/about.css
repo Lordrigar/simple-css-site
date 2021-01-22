@@ -52,3 +52,23 @@
   padding-right: 8px;
   color: var(--dark-orange);
 }
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .about img {
+    width: 100%;
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+
+  .about .about-text {
+    align-self: center;
+    max-width: 100%;
+    width: 100%;
+    margin-left: 0px;
+    padding: 20px;
+  }
+}

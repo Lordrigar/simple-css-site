@@ -31,6 +31,7 @@ header h1 {
   right: 20px;
   width: 38px;
   height: 36px;
+  z-index: 50;
 }
 
 .hamburger div {
@@ -51,7 +52,7 @@ nav {
   width: 260px;
   height: 100vh;
   color: var(--light-orange);
-  z-index: 20;
+  z-index: 50;
   background: rgba(34, 34, 34, 0.8);
 }
 
@@ -159,4 +160,31 @@ nav li {
 
 .header-content form input[type='submit']:hover {
   background: var(--light-orange2);
+}
+
+@media (max-width: 768px) {
+  .header-content h1 {
+    font-size: 28px;
+  }
+
+  .header-content h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-content h2 {
+    text-align: center;
+  }
+
+  .header-content form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-content form input:first-child {
+    margin-bottom: 20px;
+  }
 }
